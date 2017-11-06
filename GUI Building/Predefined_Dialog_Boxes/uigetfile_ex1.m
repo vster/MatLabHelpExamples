@@ -1,0 +1,1 @@
+[FileName,PathName] = uigetfile('*.m','Select the MATLAB code file');

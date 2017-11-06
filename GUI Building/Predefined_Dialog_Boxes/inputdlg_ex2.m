@@ -1,0 +1,3 @@
+x = inputdlg('Enter space-separated numbers:',...
+             'Sample', [1 50]);
+data = str2num(x{:});

@@ -1,0 +1,1 @@
+[FileName,PathName] = uigetfile('*.wav','Select the WAV file');

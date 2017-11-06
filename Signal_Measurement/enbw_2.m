@@ -1,0 +1,1 @@
+bw = enbw(flattopwin(10000), 44.1e3);

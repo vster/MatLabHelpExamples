@@ -1,0 +1,1 @@
+bw = enbw(hamming(1000));

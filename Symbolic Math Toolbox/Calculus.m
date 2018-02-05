@@ -1,3 +1,4 @@
+clear
 % To manipulate a symbolic variable, create an object of type SYM.
 x = sym('x')
 

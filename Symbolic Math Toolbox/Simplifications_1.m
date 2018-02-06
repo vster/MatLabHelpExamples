@@ -73,14 +73,40 @@ for k = 2:11
 end
 [N' factor(N')]
 
+% simplifyFraction
+syms x
+f =(x^3 - 1)/(x - 1);
+simplifyFraction(f)
 
+f = (x^3 - x^2*y - x*y^2 + y^3)/(x^3 + y^3);
+simplifyFraction(f)
 
+f = (1 - exp(x)^4)/(1 + exp(x))^4;
+simplifyFraction(f)
 
+% simplify
+syms x
+f = (1 - x^2)/(1 - x);
+simplify(f)
 
+syms a
+f = (1/a^3 + 6/a^2 + 12/a + 8)^(1/3);
+simplify(f)
 
+syms x y
+f = exp(x) * exp(y);
+simplify(f)
 
+syms x
+f = besselj(2, x) + besselj(0, x);
+simplify(f)
 
+syms x
+f = gamma(x + 1) - x*gamma(x);
+simplify(f)
 
+syms x
+f = cos(x)^2 + sin(x)^2;
 
 
 

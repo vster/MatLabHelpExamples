@@ -1,0 +1,11 @@
+% ilaplace
+syms x y
+F = 1/y^2;
+ilaplace(F, y, x)
+
+syms a s x
+F = 1/(s - a)^2;
+ilaplace(F, x)
+
+ilaplace(F)
+

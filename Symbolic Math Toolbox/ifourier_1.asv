@@ -1,0 +1,18 @@
+% ifourier
+syms x y
+F = sqrt(sym(pi))*exp(-y^2/4);
+ifourier(F, y, x)
+
+syms a w t real
+F = exp(-w^2/(4*a^2));
+ifourier(F, t)
+
+ifourier(F)
+
+syms a w t clear
+
+syms t w
+ifourier(dirac(w), w, t)
+
+ifourier(2*exp(-abs(w)) - 1, w, t)
+

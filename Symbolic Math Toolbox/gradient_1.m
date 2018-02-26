@@ -1,4 +1,6 @@
 % gradient
+% Gradient vector of scalar function
+
 syms x y z
 f = 2*y*z*sin(x) + 3*x*sin(z)*cos(y);
 gradient(f, [x, y, z])

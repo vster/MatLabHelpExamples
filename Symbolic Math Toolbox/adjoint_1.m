@@ -1,4 +1,5 @@
 % adjoint
+% Adjoint of symbolic square matrix
 
 syms x y z
 A = sym([x y z; 2 1 0; 1 0 2]);

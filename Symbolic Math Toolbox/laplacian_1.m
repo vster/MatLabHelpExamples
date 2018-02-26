@@ -1,4 +1,5 @@
 % laplacian
+% Laplacian of scalar function
 
 syms x y t
 laplacian(1/x^3 + y^2 - log(t))

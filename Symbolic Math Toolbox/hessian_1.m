@@ -1,4 +1,5 @@
 % hessian
+% Hessian matrix of scalar function
 
 syms x y z
 f = x*y + 2*z*x;

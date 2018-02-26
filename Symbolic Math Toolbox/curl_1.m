@@ -1,4 +1,5 @@
 % curl
+% Curl of vector field
 
 syms x y z
 curl([x^3*y^2*z, y^3*z^2*x, z^3*x^2*y], [x, y, z])

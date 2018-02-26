@@ -1,4 +1,5 @@
 % vectorPotential
+% Vector potential of vector field
 
 syms x y z
 vectorPotential([x^2*y, -1/2*y^2*x, -x*y*z], [x y z])

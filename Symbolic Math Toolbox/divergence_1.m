@@ -1,4 +1,5 @@
 % divergence
+% Divergence of vector field
 
 syms x y z
 divergence([x, 2*y^2, 3*z^3], [x, y, z])
